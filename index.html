@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giffin Ain't Easy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- page header with instructions -->
+    <div class="jumbotron">
+        <h1>Giffin Ain't Easy</h1>
+        <p>Click a button to see some funny animals. Feel free to add another button by typing in an animal into the search
+            field.
+        </p>
+    </div>
+    <!-- contents of buttons, search bar, and gifs -->
+    <div class="warpper">
+        <form class="form-inline" action="/action_page.php">
+            <!-- search bar -->
+            <div class="form-group searchBox">
+                <label for="email">Animal:</label>
+                <input type="email" class="form-control" id="animalSearch">
+                <!-- submit button -->
+                <br><br>
+                <div class="form-group">
+                    <div>
+                        <button type="submit" class="btn btn-default" id="addAnimal">Add Animal</button>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit" class="btn btn-default" id="removeLast">Delete Last Button</button>
+                    </div>
+                </div>
+
+        </form>
+
+        <div id="buttonArea">
+        </div>
+        <div id="gifArea">
+
+        </div>
+    </div>
+    
+
+
+
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+.wrapper {
+    max-width: 1000px;
+}
+
+
+/* controls the styling of the buttons that will be created */
+.animalButton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #08b20d;
+    border-radius: 8px;
+    background: #0dff16;
+    background: -moz-linear-gradient(top, #0dff16, #08b20d);
+    background: linear-gradient(to bottom, #0dff16, #08b20d);
+    text-shadow: #067f0a 1px 1px 2px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.animalButton:hover,
+.animalButton:focus {
+    border: 1px solid;
+    border-color: #0BFE13;
+    background: #10ff1a;
+    background: -moz-linear-gradient(top, #10ff1a, #0ad610);
+    background: linear-gradient(to bottom, #10ff1a, #0ad610);
+    color: #ffffff;
+    text-decoration: none;
+}
+.animalButton:active {
+    background: #08b20d;
+    background: -moz-linear-gradient(top, #08b20d, #08b20d);
+    background: linear-gradient(to bottom, #08b20d, #08b20d);
+}
+
+
+
+/* Styling for area where buttons will; be generated */
+#buttonArea {
+    margin-top: 50px;
+}
+
