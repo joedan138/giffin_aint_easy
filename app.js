@@ -59,7 +59,7 @@ function setupClicks() {
     $(".animalButton").click(function() {
         event.preventDefault();
         var animalName = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q="+ animalName +"&api_key=vZpgnm2bVL7xRmIro5IPC0Ss59Tyyn2s&limit=9";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q="+ animalName +"&api_key=vZpgnm2bVL7xRmIro5IPC0Ss59Tyyn2s&limit=9";
     
         $.ajax({
             url: queryURL,
